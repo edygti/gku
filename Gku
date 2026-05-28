@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GKU Agua y Hielo Purificada</title>
+    <style>
+        :root {
+            --azul-oscuro: #0f4c81;
+            --azul-claro: #00a8cc;
+            --blanco: #ffffff;
+            --gris-claro: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--gris-claro);
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--azul-oscuro), var(--azul-claro));
+            color: var(--blanco);
+            padding: 40px 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .logo-placeholder {
+            width: 120px;
+            height: 120px;
+            background-color: var(--blanco);
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: var(--azul-oscuro);
+            border: 4px solid var(--azul-claro);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            margin: 10px 0 5px;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+
+        .slogan {
+            font-style: italic;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .grid-precios {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: var(--blanco);
+            border-radius: 15px;
+            padding: 30px;
+            width: 260px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+            border-top: 5px solid var(--azul-claro);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--azul-oscuro);
+            font-size: 1.5rem;
+        }
+
+        .precio {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--azul-claro);
+            margin: 15px 0;
+        }
+
+        .detalles {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .info-seccion {
+            background: var(--blanco);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+            margin-top: 20px;
+        }
+
+        .info-seccion h2 {
+            color: var(--azul-oscuro);
+            margin-top: 0;
+        }
+
+        .ubicacion-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background-color: var(--azul-oscuro);
+            color: var(--blanco);
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .ubicacion-link:hover {
+            background-color: var(--azul-claro);
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            background-color: var(--azul-oscuro);
+            color: var(--blanco);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <header>
+    <img src="https://i.postimg.cc/nc88FXHK/1779339900285.png" alt="Logo GKU" class="logo-imagen">
+    <h1>GKU AGUA Y HIELO PURIFICADA</h1>
+    ...
+
+        <p class="slogan">Frescura y pureza total a tu alcance</p>
+    </header>
+
+    <div class="container">
+        
+        <h2>Nuestros Precios</h2>
+        <div class="grid-precios">
+            <div class="card">
+                <h3>Agua Purificada</h3>
+                <div class="precio">$12</div>
+                <div class="detalles">Garrafón de 20 Litros</div>
+            </div>
+            
+            <div class="card">
+                <h3>Hielo Purificado</h3>
+                <div class="precio">$20</div>
+                <div class="detalles">Bolsa de 5 KG</div>
+            </div>
+        </div>
+
+        <div class="info-seccion">
+            <h2>Visítanos</h2>
+            <p style="font-size: 1.2rem; margin: 10px 0;"><strong>Dirección:</strong> Calle San Rafael 2732C, Zapopan, Jalisco.</p>
+            <p>¡Ven por tu agua y hielo con la mejor calidad y al mejor precio de la zona!</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Calle+san+rafael+2732C+zapopan+jalisco" target="_blank" class="ubicacion-link">📍 Ver en Google Maps</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 GKU AGUA Y HIELO PURIFICADA - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
